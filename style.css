@@ -1,0 +1,233 @@
+body {
+    font-family: "Old Standard TT", serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 248, 237);
+    color: #333;
+}
+
+.header-container {
+    background-image: url('https://i0.wp.com/ogdencontemporaryarts.org/wp-content/uploads/2024/09/391611238_665692542328564_6878682544849296214_n.jpg?fit=1920%2C1005&ssl=1');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.header-container h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.website-name {
+    font-family: "Old Standard TT", serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c5a73bb7;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(252, 246, 229);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-container img {
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    object-fit: cover;
+}
+
+section {
+    padding: 20px;
+    background-color: rgb(252, 246, 229);
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+#services, #selected-projects, #clients, #artwork-styles {
+    display: block;
+    padding: 20px;
+    background-color: rgb(252, 246, 229);
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service, .project, .client-logos, .artwork-style {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project img {
+    width: 45%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.client-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.client-logos img {
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.artwork-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artwork-style img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+#trending-artworks h2, #services h3, #selected-projects h2, #clients h2, #artwork-styles h2 {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 8px;
+}
+
+.artwork, .service, .project, .artwork-style {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #c5a73bb7;
+    color: rgb(0, 0, 0);
+    font-family: "Old Standard TT", serif;
+    font-weight: 450;
+    padding:  20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.subscribe {
+    flex: 1;
+    margin: 10px;
+}
+
+.subscribe input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.subscribe button {
+    padding: 10px;
+}
+
+.social-media {
+    flex: 1;
+    margin : 10px;
+}
+
+.social-media ul {
+ list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media ul li a i {
+    font-size: 1.5em;
+}
+
+.copyright {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.copyright p {
+    margin: 0;
+}
